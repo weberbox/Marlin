@@ -134,7 +134,7 @@
   #define EXP1_3                            PB7
 #endif
 
-#if ENABLED(DWIN_CREALITY_LCD)
+#if HAS_DWIN_E3V2
   /**
    *        ------              ------              ------
    *   VCC | 1  2 | GND    VCC | 1  2 | GND    GND |  2 1 | VCC

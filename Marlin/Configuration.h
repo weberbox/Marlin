@@ -2745,6 +2745,11 @@
 //#define DWIN_CREALITY_LCD
 
 //
+// Ender-3 v2 OEM display with enhancements by Jacob Myers
+//
+//#define DWIN_CREALITY_LCD_JYERSUI
+
+//
 // Touch Screen Settings
 //
 //#define TOUCH_SCREEN

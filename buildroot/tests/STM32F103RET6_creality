@@ -11,7 +11,12 @@ set -e
 #
 use_example_configs "Creality/Ender-3 V2"
 opt_enable MARLIN_DEV_MODE BUFFER_MONITORING
-exec_test $1 $2 "Ender 3 v2" "$3"
+exec_test $1 $2 "Ender 3 v2 with stock UI" "$3"
+
+use_example_configs "Creality/Ender-3 V2"
+opt_disable DWIN_CREALITY_LCD
+opt_add DWIN_CREALITY_LCD_JYERSUI HAS_DWIN_E3V2
+exec_test $1 $2 "Ender 3 v2 with JyersUI" "$3"
 
 use_example_configs "Creality/Ender-3 V2"
 opt_disable CLASSIC_JERK

@@ -201,7 +201,7 @@
 #define EXP1_09_PIN                        P0_16
 #define EXP1_10_PIN                        P2_08
 
-#if ENABLED(DWIN_CREALITY_LCD)
+#if HAS_DWIN_E3V2
   #error "DWIN_CREALITY_LCD requires a custom cable with TX = P0_15, RX = P0_16. Comment out this line to continue."
 
  /**
